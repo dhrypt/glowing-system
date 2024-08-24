@@ -1,5 +1,5 @@
-import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js";
-import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/controls/OrbitControls.js";
+import * as THREE from "three"; // Import core components of Three.js
+import { OrbitControls } from "jsm/controls/OrbitControls.js"; // Import OrbitControls for interactive camera controls
 
 // Set up the renderer with antialiasing for smoother edges
 const w = window.innerWidth; // Get the width of the window
